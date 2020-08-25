@@ -1,0 +1,23 @@
+#
+# https://www.sylvaindurand.org/making-jekyll-multilingual/
+#
+title: 
+ de: ChainSquad.de GmbH
+ en: ChainSquad.com GmbH
+email: info@chainsquad.com
+name: ChainSquad GmbH
+vision: >
+  This page serves as a place to gather personal thoughts, ideas about
+  Blockchain-related topics. Thoughts are my own.
+
+disclaimer: >
+  Nothing in this site is an offer to sell, or the solicitation of an offer
+  to buy, anything.
+
+baseurl: ""
+url: "http://bin.chainsquad.com"
+github: chainsquad
+markdown: kramdown
+
+gems:
+  - jekyll-sitemap

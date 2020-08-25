@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+ {% include head.html %}
+ <body>
+  <div class="container">
+
+   <div class="col-sm-3">
+    <a href="/">
+     <img id="about" src="{{ site.baseurl }}/img/logo.svg" height="96px" />
+    </a><br />	
+
+    {% if site.vision %}
+    <h4 id="about">
+     
+    </h4>
+    <div id="about">
+     {{ site.disclaimer }}
+    </div>
+    {% endif %}
+    
+    {% if site.github %} 
+    <div id="about">
+     <a href="https://github.com/{{ site.github }}">
+     <img src="/img/github.svg" style="width: 12px; float:left" />
+     /{{ site.github }}</a>
+    </div>
+    {% endif %}
+
+   </div>
+
+   <div class="col-sm-8 col-offset-1">
+
+    <div class="content-wrapper">
+     {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+   </div>
+
+  </div>
+   <!-- Placed at the end of the document so the pages load faster -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   <script src="/js/bootstrap.min.js"></script>
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-88259430-2"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+     gtag('config', 'UA-88259430-2', {'anonymize_ip': true});
+   </script>
+ </body>
+</html>
