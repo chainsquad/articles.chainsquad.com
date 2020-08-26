@@ -15,7 +15,7 @@ disclaimer: >
   to buy, anything.
 
 baseurl: ""
-url: "http://bin.chainsquad.com"
+url: "https://articles.chainsquad.com"
 github: chainsquad
 markdown: kramdown
 
