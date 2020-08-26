@@ -2,6 +2,7 @@
 layout: post
 title: What are Smart Contracts and why they have nothing to do with Turing Completeness and Scriptability
 tags: core smart contracts
+comments: true
 ---
 
 Recently, I had a great conversation with Nathan Hourt, a brilliant backend
@@ -20,13 +21,13 @@ This is a term used in computer-science and is called after Alan Turing - the
 guy that broke Enigma encryption in WW2. From
 [wikipedia](https://en.wikipedia.org/wiki/Turing_completeness) we get this
 
-<quote>
+<blockquote>
 In computability theory, a system of data-manipulation rules [...] is
-said to be **Turing-complete** [..] if it can be used to
+said to be <strong>Turing-complete</strong> [..] if it can be used to
 simulate any Turing machine. This means that this system is able to recognize
 or decide other data-manipulation rule sets. Turing completeness is used as a
 way to express the power of such a data-manipulation rule set.
-</quote>
+</blockquote>
 
 To break this down, it means that Turing-Complete languages can be used to do
 **anything** that is in the reach of a computer. Not surprising, pretty much any

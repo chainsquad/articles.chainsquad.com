@@ -2,6 +2,7 @@
 layout: post
 title: Blockchains and the need for a token
 tags: core token
+comments: true
 ---
 
 Whenever people start talking about *blockchain* they often imply *crypto
