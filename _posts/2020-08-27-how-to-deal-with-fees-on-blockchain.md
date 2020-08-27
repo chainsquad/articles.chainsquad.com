@@ -1,7 +1,7 @@
 ---
 layout: post
-title:
-tags:
+title: How to deal with fees on a blockchain
+tags: blockchain fees
 comments: true
 percent-steem-dollars: 0
 ---
