@@ -19,6 +19,7 @@ body {
 }
 
 h1 {
+ font-size: 18pt;
  font-weight: normal;
  color: #696969;
  margin-bottom: 10px;
@@ -26,6 +27,7 @@ h1 {
 }
 
 h2 {
+ font-size: 14pt;
  font-weight: normal;
  margin-bottom: 5px;
  color: #666666;
@@ -33,9 +35,14 @@ h2 {
 }
 
 h3 {
- font-weight: normal;
+ font-size: 12pt;
  margin-bottom: 5px;
- color: #666666;
+ color: #606060;
+}
+
+h4 {
+ font-size: 14pt;
+ color: #505050;
  text-decoration: underline;
 }
 
@@ -219,4 +226,17 @@ div.col-sm-3 img#about {
  padding-bottom:0em;
  min-height: 140px;
  max-height: 140px;
+}
+
+/**
+ * ///////////////////////////////////
+ * Blog images
+ * ///////////////////////////////////
+ */
+.content .post img[src*="large"] {
+ max-width: 100%;
+}
+
+.content .post img[src*="bordered"] {
+ border: 1px solid #4a4a4a;
 }
