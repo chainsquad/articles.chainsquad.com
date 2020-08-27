@@ -5,4 +5,6 @@ source "https://rubygems.org"
 group :jekyll_plugins do
   gem 'rouge'
   gem 'jekyll-sitemap'
+  gem 'jekyll-feed'
+  gem 'kramdown-parser-gfm'
 end

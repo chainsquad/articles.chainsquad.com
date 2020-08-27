@@ -23,3 +23,7 @@ markdown: kramdown
 highlighter: rouge
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  posts_limit: 20
