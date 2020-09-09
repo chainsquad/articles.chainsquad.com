@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Atomic Swaps vs. Sidechain - Don't get fooled
-tags: core token
+title: "Atomic Swaps vs. Sidechain - Don't get fooled"
+tags: atomic swaps sidechain
 comments: true
 ---
 
