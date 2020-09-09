@@ -5,8 +5,6 @@ tags: atomic swaps sidechain
 comments: true
 ---
 
-# Atomic Swaps vs. Sidechain
-
 In recent months, we have witnesses some confusion in the crypto currency
 community about what *atomic swaps* can offer and why they are not necessarily
 in-line with common understandings of a *sidechain*. We here want to clarify
@@ -17,6 +15,8 @@ To do that, we first discuss what atomic swaps can do (not going into the
 details of how they do it) and what the general understanding of "sidechain"
 is. We will conclude by giving a simple thought experiment by discussion supply
 movements.
+
+<!--more-->
 
 ## What Atomic Swaps
 
