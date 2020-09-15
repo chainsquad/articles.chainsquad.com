@@ -52,9 +52,9 @@ wildly over time:
 
 These is what is often referred to as **fee market**: The fee depends on the
 free market - others that want to get their transaction into the block first.
-Obviously, miners prefer those that pay a more fee so that it happens that you
-may have to pay up to 50€ for a single transfer if a lot of competing
-transactions are in the *fee pool*.
+Obviously, miners prefer those that pay a higher fee so that it happens that
+you may have to pay up to 50€ for a single transfer if a lot of competing
+transactions are in the *mem pool* (or *transaction pool*).
 
 ### Sustainability
 
