@@ -7,7 +7,7 @@ comments: true
 
 Let's assume for a moment one of my clients approached me and asked for a "fair
 blockchain launch", how would I do that? What needs to be considered? Where are
-the technical, legal, social challanges? What does it even mean?
+the technical, legal, social challenges? What does it even mean?
 
 <!-- more -->
 
