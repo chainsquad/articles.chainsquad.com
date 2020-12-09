@@ -79,12 +79,12 @@ span.excerpt {
  * /////////////////
  */
 div#container {
- width: 730px;
+ width: 900px;
  margin: auto;
 }
 @media (min-width: 768px) {
  .container {
-  max-width: 730px;
+  max-width: 900px;
  }
 }
 
@@ -165,6 +165,37 @@ div.col-sm-8 {
 
 .content-wrapper{
  text-align:justify;
+}
+
+blockquote {
+ position: relative;
+ /* background: #ddd; */
+ border-left: 5px solid #aaa;
+ padding: 5px 5px 0px 3em;
+ margin-bottom: 8px;
+ margin-left: 3em;
+ font-size: 11pt;
+ color: #555;
+}
+
+blockquote:before {
+  position: absolute;
+  content: open-quote;
+  font-size: 4em;
+  margin-left: -0.6em;
+  margin-top: -0.4em;
+}
+blockquote:after {
+  position: absolute;
+  content: close-quote;
+  font-size: 4em;
+  bottom: 0;
+  right: 0;
+  margin-right: -0.6em;
+  margin-bottom: -0.8em;
+}
+blockquote p {
+  display: inline;
 }
 
 /**
