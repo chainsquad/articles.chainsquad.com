@@ -5,8 +5,6 @@ tags: DAC blockchain genesis launch
 comments: true
 ---
 
-# Introduction
-
 A decentralized autonomous company, as the name implies, should mimic the
 behavior of a *company* in most (if not all) regards. This implies that a
 blockchain that implements a DAC comes with a few components among which

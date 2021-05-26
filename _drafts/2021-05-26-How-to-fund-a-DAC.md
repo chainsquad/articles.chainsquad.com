@@ -5,8 +5,6 @@ tags: DAC blockchain genesis launch
 comments: true
 ---
 
-### Opening Remark
-
 The following is the perspective of an engineer that has been in the space for
 some time and learned a few lessons from success and failure of other
 blockchain launches. Of course, the following requires proper legal review and
