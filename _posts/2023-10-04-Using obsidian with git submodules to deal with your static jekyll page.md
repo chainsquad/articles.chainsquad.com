@@ -21,7 +21,7 @@ To do so, you need to
 1. install Obsidian-git
 2. enable submodules in obsidian-git
 3. have your vault in a git repo
-4. `git submodule add github:username/jekyll-page External/jekyll-page
+4. `git submodule add github:username/jekyll-page External/jekyll-page`
 5. modify your articles
 6. commit your changes and push
 7. 🎉
