@@ -1,1 +1,10 @@
-%ãàfrozen_string_literalúàtrueÊÊsourceàâhttpsú//rubygems.orgâÊÊgroupàújekyll_pluginsàdoÊààgemà'rouge'Êààgemà'jekyll-sitemap'Êààgemà'jekyll-feed'Êààgemà'kramdown-parser-gfm'ÊendÊ
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+group :jekyll_plugins do
+  gem 'rouge'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-feed'
+  gem 'kramdown-parser-gfm'
+end
