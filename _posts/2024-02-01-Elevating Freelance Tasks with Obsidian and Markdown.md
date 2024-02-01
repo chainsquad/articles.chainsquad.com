@@ -9,9 +9,10 @@ type: uniquenote
 layout: post
 title: Elevating Freelance Tasks with Obsidian and Markdown
 ---
-# Elevating Freelance Tasks with Obsidian and Markdown
-
+****
 In today's fast-paced world, freelancers and small businesses face the constant challenge of managing multiple projects, tasks, and client interactions. The key to success in this competitive landscape lies in maximizing productivity and streamlining workflows. One powerful way to achieve this is by leveraging the dynamic duo of Obsidian and Markdown. In this article, we'll dive deeper into how these two tools can revolutionize the way freelancers and small businesses operate.
+
+<!-- more -->
 
 ## Obsidian: Your Ultimate Productivity Hub
 
