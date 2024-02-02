@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " en" }}">
-{% include head.html %}
+  {% include head.html %}
 
-<body>
-  <div class="container">
+  <body>
+    <div class="container">
 
-    <div class="col-sm-3">
-      <a href="/">
-        <img id="about" src="{{ site.baseurl }}/img/me.png" height="96px" />
-      </a><br />
+      <div class="col-sm-3">
+        <a href="/">
+          <img id="about" src="{{ site.baseurl }}/img/me.png" height="96px" />
+        </a><br />
 
-      {% if site.aboutme %}
-      <div id="about">
-        <h5># about me</h5>
-        {{ site.aboutme }}
-      </div>
-      {% endif %}
-      {% if site.vision %}
-      <div id="about">
-        <h5># vision</h5>
-        {{ site.vision }}
-      </div>
-      {% endif %}
-      {% if site.disclaimer %}
-      <div id="about">
-        <h5># disclaimer</h5>
-        {{ site.disclaimer }}
-      </div>
-      {% endif %}
+        {% if site.aboutme %}
+        <div id="about">
+          <h5># about me</h5>
+          {{ site.aboutme }}
+        </div>
+        {% endif %}
+        {% if site.vision %}
+        <div id="about">
+          <h5># vision</h5>
+          {{ site.vision }}
+        </div>
+        {% endif %}
+        {% if site.disclaimer %}
+        <div id="about">
+          <h5># disclaimer</h5>
+          {{ site.disclaimer }}
+        </div>
+        {% endif %}
 
-      <div id="about">
-        <h5># Links</h5>
-        <a href="https://github.com/{{ site.github }}/articles.chainsquad.com">
-          <img src="/img/github.svg" style="width: 12px; float:left" />
-          /{{ site.github }}</a>
+        <div id="about">
+          <h5># Links</h5>
+          <a href="https://github.com/{{ site.github }}/articles.chainsquad.com">
+            <img src="/img/github.svg" style="width: 12px; float:left" />
+            /{{ site.github }}</a>
+        </div>
       </div>
 
       <div class="content-wrapper">
@@ -44,12 +45,12 @@
 
     </div>
 
-  </div>
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="/js/lightbox.js"></script>
-  <script>
+    </div>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/lightbox.js"></script>
+    <script>
     var _paq = window._paq = window._paq || [];
     /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
     _paq.push(["setExcludedReferrers", ["localhost"]]);
@@ -62,7 +63,6 @@
       var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
       g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
     })();
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>
