@@ -1,19 +1,20 @@
 ---
 creation date: 2024-01-21 20:33
+layout: post
 modification date: Sunday 21st January 2024 20:46:44
+relay-document: 88c13979-2541-4a27-a8d1-af845b5246bd
+relay-to:
+  - news@relay.md
 summary: A kickoff article about markdown and obsidian and why they are so great together
 tags:
   - ai
   - seo
 type: uniquenote
-relay-document: 88c13979-2541-4a27-a8d1-af845b5246bd
-layout: post
-title: Markdown, The Long-Lasting, Simple Document Format Boosting Freelancer's Productivity in Obsidian
 ---
 
-In our rapidly evolving digital world, the need for a reliable, efficient, and simple document format is paramount, especially for freelancers and engineers. Enter Markdown - a format that has stood the test of time, proving its durability and ease of use across various platforms. This article explores how Markdown's simplicity and long-lasting nature make it an ideal choice for professionals. Moreover, we delve into [Obsidian.md](https://obsidian.md), a note-taking software built on Markdown, that transforms how freelancers manage their projects and ideas.
+## Introduction: Why Markdown Matters
 
-<!-- more -->
+In our rapidly evolving digital world, the need for a reliable, efficient, and simple document format is paramount, especially for freelancers and engineers. Enter Markdown - a format that has stood the test of time, proving its durability and ease of use across various platforms. This article explores how Markdown's simplicity and long-lasting nature make it an ideal choice for professionals. Moreover, we delve into [Obsidian.md](https://obsidian.md), a note-taking software built on Markdown, that transforms how freelancers manage their projects and ideas.
 
 ## The Enduring Simplicity of Markdown
 
