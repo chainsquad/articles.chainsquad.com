@@ -1,5 +1,5 @@
 ---
-creation date: 2024-02-01 13:00
+creation_date: 2024-02-01 13:00
 summary: A quick article that illutsrates the power of markdown and obsidian for freelancers and small businesses
 tags:
   - ai
