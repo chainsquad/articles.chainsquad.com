@@ -12,7 +12,7 @@ Stripe gives you webhooks and server-side sessions. In Web3, the standard
 approach is to run an RPC node, poll the blockchain, and maintain your own
 payment state. That's infrastructure tax for something that should be simple.
 
-We built something else.
+We built [Tributary](https://tributary.so) to solve this.
 
 <!--more-->
 

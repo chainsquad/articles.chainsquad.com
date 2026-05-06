@@ -169,6 +169,7 @@ Raising through a mechanism that holds us accountable from day one.
 
 If that's the kind of bet you want to evaluate:
 
+- [Tributary](https://tributary.so)
 - App: [app.tributary.so](https://app.tributary.so)
 - Docs: [docs.tributary.so](https://docs.tributary.so)
 - SDK: `npm install @tributary-so/sdk`

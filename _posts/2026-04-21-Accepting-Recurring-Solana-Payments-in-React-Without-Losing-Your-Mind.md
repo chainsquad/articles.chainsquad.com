@@ -165,6 +165,7 @@ wallet and connection from context automatically.
 The example app runs on devnet out of the box. Clone it, `pnpm install`,
 `pnpm dev`, and you're accepting payments in minutes.
 
+- [Tributary](https://tributary.so)
 - [Example app on GitHub](https://github.com/tributary-so/example-payments)
 - [Full docs](https://docs.tributary.so)
 

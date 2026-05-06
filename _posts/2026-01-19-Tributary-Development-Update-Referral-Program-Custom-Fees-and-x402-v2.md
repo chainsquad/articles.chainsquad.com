@@ -127,4 +127,6 @@ provides a production-ready payment middleware.
 
 Next up: scaling the scheduler and deeper x402 integrations.
 
+[Tributary](https://tributary.so) — recurring payment infrastructure for Solana.
+
 Ship it.
