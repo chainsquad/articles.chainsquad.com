@@ -7,8 +7,60 @@
   <meta name="description"
     content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ " /css/main.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="/css/lightbox.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Roboto Mono', 'Inter', 'sans-serif'],
+            mono: ['Roboto Mono', 'monospace'],
+          },
+          colors: {
+            border: 'hsl(var(--border))',
+            input: 'hsl(var(--input))',
+            ring: 'hsl(var(--ring))',
+            background: 'hsl(var(--background))',
+            foreground: 'hsl(var(--foreground))',
+            primary: {
+              DEFAULT: 'hsl(var(--primary))',
+              foreground: 'hsl(var(--primary-foreground))',
+            },
+            secondary: {
+              DEFAULT: 'hsl(var(--secondary))',
+              foreground: 'hsl(var(--secondary-foreground))',
+            },
+            muted: {
+              DEFAULT: 'hsl(var(--muted))',
+              foreground: 'hsl(var(--muted-foreground))',
+            },
+            accent: {
+              DEFAULT: 'hsl(var(--accent))',
+              foreground: 'hsl(var(--accent-foreground))',
+            },
+            destructive: {
+              DEFAULT: 'hsl(var(--destructive))',
+              foreground: 'hsl(var(--destructive-foreground))',
+            },
+            card: {
+              DEFAULT: 'hsl(var(--card))',
+              foreground: 'hsl(var(--card-foreground))',
+            },
+            popover: {
+              DEFAULT: 'hsl(var(--popover))',
+              foreground: 'hsl(var(--popover-foreground))',
+            },
+          },
+        },
+      },
+    }
+  </script>
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="author" href="{{site.author}}" />
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
@@ -17,17 +69,8 @@
   <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}"
     href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">
-  <!-- syntax highlighting CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
-  <!-- Bootstrap core CSS -->
-  <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
-    integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-  <!-- Open Graph Metadatas -->
-  <meta content="your_facebook_app_id" property="fb:app_id">
-  <meta content="{{ site.title.en }}" property="og:site_name">
+
+  <!-- Open Graph -->
   {%- if page.title %}
   <meta content="{{ page.title }}" property="og:title">
   <meta content="article" property="og:type">
@@ -35,6 +78,7 @@
   <meta content="{{ site.title.en }}" property="og:title">
   <meta content="website" property="og:type">
   {%- endif %}
+  <meta content="{{ site.title.en }}" property="og:site_name">
   {%- if page.description %}
   <meta content="{{ page.description }}" property="og:description">
   {%- else %}
@@ -50,7 +94,7 @@
   {%- if page.image %}
   <meta content="/img/posts/{{ page.image }}" property="og:image">
   {%- else %}
-  <meta content="/img/logo-high-resolution.png" property="og:image">
+  <meta content="/img/logo-circle.png" property="og:image">
   {%- endif %}
   {%- if page.categories %}
   {% for category in page.categories limit:1 %}
@@ -62,10 +106,10 @@
   <meta content="{{ tag }}" property="article:tag">
   {% endfor %}
   {%- endif %}
-  <!-- Twitter cards metadatas -->
+
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@vdaubry">
-  <meta name="twitter:creator" content="@vdaubry">
+  <meta name="twitter:site" content="@chainsquad">
   {%- if page.title %}
   <meta name="twitter:title" content="{{ page.title }}">
   {%- else %}

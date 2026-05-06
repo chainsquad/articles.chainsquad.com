@@ -1,16 +1,13 @@
-<footer>
-
- <div class="row">
-  <div class="col-md-8">
-    &copy; {{ 'now' | date: "%Y" }} {{ site.name }}
+<footer class="border-t border-border/50 mt-16">
+  <div class="mx-auto max-w-5xl px-6 py-8">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
+      <div class="flex items-center gap-4">
+        <span>&copy; {{ 'now' | date: "%Y" }} {{ site.name }}</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="https://chainsquad.com/imprint" class="hover:text-foreground transition-colors uppercase tracking-[0.1em]">/imprint</a>
+        <a href="https://chainsquad.com/contact" class="hover:text-foreground transition-colors uppercase tracking-[0.1em]">/contact</a>
+      </div>
+    </div>
   </div>
- </div>
- <div class="row">
-  <div class="col-md-6">
-    - <a href="https://chainsquad.com/imprint">/imprint</a>
-    - <a href="https://chainsquad.com/contact">/contact</a>
-   </div>
-  </div>
- </div>
-
 </footer>

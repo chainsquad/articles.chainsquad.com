@@ -9,8 +9,9 @@ relay-to:
   - news@relay.md
 summary: A kickoff article about markdown and obsidian and why they are so great together
 tags:
-  - ai
-  - seo
+  - markdown
+  - obsidian
+  - productivity
 type: uniquenote
 ---
 
@@ -67,6 +68,7 @@ With a variety of themes like **Minimal**, [Obsidian.md](https://obsidian.md) no
 ## Revolutionizing Team Collaboration with Relay.md and Obsidian
 
 While [Obsidian.md](https://obsidian.md) stands out as a local-only, Markdown-based note-taking platform, a common concern is collaboration. How do teams work together efficiently using this system? The answer lies in [Relay.md](https://relay.md). Imagine bypassing the limitations of Google Docs, which doesn't support Markdown, and embracing a platform where your local, Markdown-based knowledge base becomes a hub for team collaboration. [Relay.md](https://relay.md) seamlessly integrates with [Obsidian.md](https://obsidian.md), enabling you to share what's necessary while keeping your extensive knowledge close at hand. The beauty of this setup is that you never have to leave [Obsidian.md](https://obsidian.md). This integration caters perfectly to teams working on projects, offering a streamlined, unified workspace. The best part? [Relay.md](https://relay.md) is free for public teams. To stay at the forefront of collaborative innovation, consider subscribing to their newsletter. Embrace the future of team collaboration with Relay.md and elevate your project management experience.
+
 ## Up Next: Elevating Freelance Tasks with Obsidian and Markdown
 
 In the next article in the series, we will show how [Obsidian.md](https://obsidian.md), offers a modern and efficient way for freelancers and engineers for managing their tasks. Its capability to handle Tasks as seen in GitHub and extends them to managing projects, clients, and teams. With [Obsidian.md](https://obsidian.md)'s powerful database and scripting, you can create customized dashboards or even Kanban-boards to ensure that all tasks are at your fingertips. This integration illustrates how Markdown, in tandem with [Obsidian.md](https://obsidian.md), can revolutionize your workflow, leading to heightened productivity and organization.

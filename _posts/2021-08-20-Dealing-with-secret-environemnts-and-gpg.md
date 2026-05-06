@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dealing with secrets, environment variables and GPG conveniently
-tags: devops
+tags: devops gpg security
 comments: true
 ---
 
